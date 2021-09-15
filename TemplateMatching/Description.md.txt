@@ -1,0 +1,12 @@
+MultiscaleTemplateMatching.py: 
+Python file containing methods for single image template matching using Canny edge detection. 
+Method utilizes normalized template matching correlation coefficient. 
+
+MultiscaleTemplateMatching_testfile.py: 
+Python file running test for canvas images 'pepsi_image0{1-9}.jpg' against single template 'pepsi_template.png'. 
+
+Improvements/fixes: 
+- Augmentation needed for multiple object detection in single canvas image. 
+- Canvas images are scaled manually for 50 different scale sizes in ranges 0.1-2.0. Augmentation needed to scale images according to 
+  original image size. 
+- Augmentation needed for accuracy validation and establishing ground truth. 
